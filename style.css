@@ -28,6 +28,14 @@
     transition: 0.3s;
 }
 
+.logo{
+    filter: grayscale(0%)
+}
+
+.logo:hover{
+    filter: grayscale(100%)
+}
+
 .rubik-mono-one-regular {
     font-family: "Rubik Mono One", serif;
     font-weight: 400;
@@ -77,7 +85,7 @@ a{
     color: #398f94;
 }
 
-.zalupa {
+.pupok {
     padding-top: 10%;
     padding-bottom: 10%;
     background: 
@@ -85,7 +93,7 @@ a{
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     }
 
-.zalupa:hover {
+.pupok:hover {
     transition: 2s;
     background: 
         url('banner-hover.PNG') no-repeat center/1500px,
